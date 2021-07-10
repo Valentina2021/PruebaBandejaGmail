@@ -43,12 +43,3 @@ You can learn more in the [Create React App documentation](https://facebook.gith
 
 To learn React, check out the [React documentation](https://reactjs.org/).
 
-🔷 React => Diseño front-end de toda la aplicación con Reactjs.
-
-🔷 React-router => Para navegar entre algunos componentes de la aplicación.
-
-🔷 Material-UI => Para iconografia y uso de ciertos elementos de la bandeja de entrada.
-
-🔷 React-hook-form => Para crear una validación de formulario con React.
-
-🔷 Database => Realizada a partir de un archivo .js para la lectura de los datos de la lista de correos.

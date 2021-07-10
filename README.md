@@ -1,5 +1,17 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app), using the [Redux](https://redux.js.org/) and [Redux Toolkit](https://redux-toolkit.js.org/) template.
 
+☑️ Tecnologias utilizadas dentro del proyecto
+
+🔷 React => Diseño front-end de toda la aplicación con Reactjs.
+
+🔷 React-router => Para navegar entre algunos componentes de la aplicación.
+
+🔷 Material-UI => Para iconografia y uso de ciertos elementos de la bandeja de entrada.
+
+🔷 React-hook-form => Para crear una validación de formulario con React.
+
+🔷 Database => Realizada a partir de un archivo .js para la lectura de los datos de la lista de correos.
+
 ## Available Scripts
 
 In the project directory, you can run:
@@ -42,3 +54,4 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
 To learn React, check out the [React documentation](https://reactjs.org/).
+

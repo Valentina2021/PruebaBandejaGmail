@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/PruebaBandejaGmail/static/css/main.825d4760.chunk.css",
+    "main.js": "/PruebaBandejaGmail/static/js/main.c24bdf8d.chunk.js",
+    "main.js.map": "/PruebaBandejaGmail/static/js/main.c24bdf8d.chunk.js.map",
+    "runtime-main.js": "/PruebaBandejaGmail/static/js/runtime-main.9f2d4d57.js",
+    "runtime-main.js.map": "/PruebaBandejaGmail/static/js/runtime-main.9f2d4d57.js.map",
+    "static/js/2.5509e183.chunk.js": "/PruebaBandejaGmail/static/js/2.5509e183.chunk.js",
+    "static/js/2.5509e183.chunk.js.map": "/PruebaBandejaGmail/static/js/2.5509e183.chunk.js.map",
+    "index.html": "/PruebaBandejaGmail/index.html",
+    "static/css/main.825d4760.chunk.css.map": "/PruebaBandejaGmail/static/css/main.825d4760.chunk.css.map",
+    "static/js/2.5509e183.chunk.js.LICENSE.txt": "/PruebaBandejaGmail/static/js/2.5509e183.chunk.js.LICENSE.txt",
+    "static/media/google1.6fc98924.png": "/PruebaBandejaGmail/static/media/google1.6fc98924.png",
+    "static/media/perfil.0847a8d5.jpeg": "/PruebaBandejaGmail/static/media/perfil.0847a8d5.jpeg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.9f2d4d57.js",
+    "static/js/2.5509e183.chunk.js",
+    "static/css/main.825d4760.chunk.css",
+    "static/js/main.c24bdf8d.chunk.js"
+  ]
+}

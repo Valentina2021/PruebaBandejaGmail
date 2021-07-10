@@ -1,0 +1,47 @@
+.emailrows{
+    display: flex;
+    align-items: center;
+    height: 50px;
+    border-bottom: 2px solid whitesmoke;
+    cursor: pointer;
+    z-index: 999;
+}
+
+.emailrows:hover{
+    background-color: whitesmoke;
+}
+
+.emailrow-op{
+    display:flex;
+}
+
+.emailrow-msm{
+    display:flex;
+    flex: 0.8;
+    align-items: center;
+    font-size: 13px;
+}
+
+.emailrow-msm h4{
+    width: 400px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.emailrow-titulo{
+    font-size: 13px;
+    flex: 0.3; 
+}
+
+.emailrow-hora{
+    padding-right: 15px;
+    font-size: 9px;
+    font-weight: bold;
+}
+
+.emailrow-descript{
+    font-weight: 400;
+    color: gray;
+}

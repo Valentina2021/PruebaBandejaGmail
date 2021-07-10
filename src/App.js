@@ -1,57 +1,47 @@
 import React from 'react';
-import logo from './logo.svg';
-import { Counter } from './features/counter/Counter';
+import Header from './components/header';
+import Sidebar from './components/Sidebar';
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route
+} from "react-router-dom";
+import Mail from './components/Mail';
+import EmailList from './components/EmailList';
 import './App.css';
+import SendMail from './components/SendMail';
+import {useSelector} from "react-redux";
+import {selectSendMessageIsOpen} from "./features/mailSlice"
 
 function App() {
+  const sendMessageIsOpen = useSelector(selectSendMessageIsOpen);
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <Counter />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <span>
-          <span>Learn </span>
-          <a
-            className="App-link"
-            href="https://reactjs.org/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            React
-          </a>
-          <span>, </span>
-          <a
-            className="App-link"
-            href="https://redux.js.org/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Redux
-          </a>
-          <span>, </span>
-          <a
-            className="App-link"
-            href="https://redux-toolkit.js.org/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Redux Toolkit
-          </a>
-          ,<span> and </span>
-          <a
-            className="App-link"
-            href="https://react-redux.js.org/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            React Redux
-          </a>
-        </span>
-      </header>
-    </div>
+    <Router>
+        <div className="App">
+            <Header />
+            <div className="body-app">
+              <Sidebar/>
+              {/** Permite redireccionar la ruta al momento 
+               * de seleccionar un correo ej, localhost/email1
+               * a localhost
+              */}
+              <Switch>
+                {/** Si la ruta es .../mail entonces muestre el componente
+                 * de correo correspondiente o si se encuentra en la 
+                 * Homepage entonces muestre la lista de correos
+                 */}
+                <Route path="/mail">
+                  <Mail/>
+                </Route>
+                <Route path="/">
+                  <EmailList/>
+                </Route>
+              </Switch>
+            </div>
+            {sendMessageIsOpen && <SendMail/>}
+        </div>
+    </Router>
+    
   );
 }
 

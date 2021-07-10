@@ -1,0 +1,65 @@
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid whitesmoke;
+    background-color: whitesmoke;
+}
+
+.icon{
+    width: 130px !important;
+    height: 45px !important;
+    margin-left: 50px !important;
+    padding: 10px;
+}
+.btnfind{
+    background-color: #3079ed !important;
+    border-radius: 1px !important;
+}
+.Mas_info{
+    background-color: #2D2D2D;
+    width: 100%;
+}
+.parte-izq img{
+    height: 65px;
+    width: 100px;
+    margin-left: 10px;
+}
+
+.parte-izq{
+    display: flex;
+    align-items: center;
+}
+
+.finder{
+    display: flex;
+    align-items: center;
+    flex: 2;
+    background-color:white;
+    padding: 2px;
+}
+.middle{
+    display: flex;
+    flex-direction: row;
+    flex: 0.7;
+    margin-right:60px;
+}
+.finder input{
+    border: none;
+    width: 100%;
+    padding: 8px;
+    outline-width: 0;
+    font-size: medium;
+    outline: none;
+    background-color: transparent;
+}
+
+.parte-der{
+    display:flex;
+    padding-right: 20px;
+    align-items: center;
+}
+
+.parte-der p{
+    font-size: 13px;
+}

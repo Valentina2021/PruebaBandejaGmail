@@ -1,0 +1,46 @@
+.sidebars{
+    display: flex;
+    align-items: center;
+    height: 40px;
+    padding: 0 30px;
+    cursor: pointer;
+    color: #818181;
+}
+
+.sidebars p{
+    display: none;
+    font-weight: 300;
+}
+
+.sidebars h3{
+    flex: 1;
+    margin-left: 10px;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.sidebars EntradaIcon{
+    padding: 5px;
+}
+
+.sidebars:hover p{
+    display: inline;
+    
+}
+
+.sidebars:hover,
+.sidebars:hover p,
+.sidebars:hover  h3
+.sidebar--active:hover, 
+.sidebar--active:hover p,
+.sidebar--active:hover h3{
+    color: #c04b37;
+    font-weight: 800 !important;
+    border-left-color: blue !important;
+}
+
+
+.sidebar--active p{
+    display: inline !important;
+}
+

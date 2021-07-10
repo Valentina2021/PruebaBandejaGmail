@@ -1,0 +1,21 @@
+.tag{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    padding-left: 50px;
+}
+.sidebar{
+    flex: 0.3;
+    max-width: 300px;
+    padding-right: 20px;
+}
+
+.btnred{
+    background-color: #EA4335 !important;
+    border-radius: 1px !important;
+    color: white !important;
+    margin-left: 33px !important;
+    margin-top: 10px !important;
+    margin-bottom: 15px !important;
+    width: 150px;
+}

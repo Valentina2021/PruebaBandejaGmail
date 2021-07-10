@@ -15,6 +15,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 ⚠️ Para que la aplicación funcione, es necesario ejecutar los siguientes comandos: 
 
 ### `npm install`
+Despues: 
 ### `npm start`
 
 ------------------------------------------------------------------------------------

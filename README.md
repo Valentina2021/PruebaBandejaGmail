@@ -12,6 +12,13 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 🔷 Database => Realizada a partir de un archivo .js para la lectura de los datos de la lista de correos.
 
+⚠️ Para que la aplicación funcione, es necesario ejecutar los siguientes comandos: 
+
+### `npm install`
+### `npm start`
+
+------------------------------------------------------------------------------------
+
 ## Available Scripts
 
 In the project directory, you can run:
